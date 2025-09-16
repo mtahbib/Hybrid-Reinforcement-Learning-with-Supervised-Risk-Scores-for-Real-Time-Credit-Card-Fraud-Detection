@@ -1,0 +1,42 @@
+{
+  "LogReg": {
+    "block_TP": 42,
+    "block_FP": 403,
+    "approve_TN": 42267,
+    "approve_FN": 10,
+    "review_legit": 0,
+    "review_fraud": 0,
+    "total_reward": 7757.399999994651,
+    "reward_per_1k": 181.57857778181383
+  },
+  "RandomForest": {
+    "block_TP": 44,
+    "block_FP": 340,
+    "approve_TN": 42330,
+    "approve_FN": 8,
+    "review_legit": 0,
+    "review_fraud": 0,
+    "total_reward": 7925.999999994562,
+    "reward_per_1k": 185.52502223665937
+  },
+  "XGBoost": {
+    "block_TP": 43,
+    "block_FP": 395,
+    "approve_TN": 42275,
+    "approve_FN": 9,
+    "review_legit": 0,
+    "review_fraud": 0,
+    "total_reward": 7789.9999999946285,
+    "reward_per_1k": 182.3416506716593
+  },
+  "RL": {
+    "block_TP": 34,
+    "block_FP": 10,
+    "approve_TN": 38501,
+    "approve_FN": 12,
+    "review_legit": 4159,
+    "review_fraud": 6,
+    "total_reward": 6915.199999995898,
+    "reward_per_1k": 161.8650812226932
+  }
+}

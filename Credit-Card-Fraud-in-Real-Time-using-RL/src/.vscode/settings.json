@@ -1,0 +1,4 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\Lenovo\\anaconda3\\envs\\FraudwBP\\python.exe",
+  "python.analysis.extraPaths": ["${workspaceFolder}/src"]
+}

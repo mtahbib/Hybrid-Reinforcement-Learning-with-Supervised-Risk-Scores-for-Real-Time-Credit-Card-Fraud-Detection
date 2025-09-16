@@ -1,0 +1,18 @@
+{
+  "reward_per_1k": {
+    "LogReg": 181.57857778181383,
+    "RandomForest": 185.52502223665937,
+    "XGBoost": 182.3416506716593,
+    "RL": 161.8650812226932
+  },
+  "thresholds_val_FPR1pct": {
+    "LogReg": 0.6272485826005503,
+    "RandomForest": 0.008,
+    "XGBoost": 0.00018365283904131502
+  },
+  "rl_action_rates": {
+    "approve_rate": 0.9014793314919713,
+    "review_rate": 0.09749075417817518,
+    "block_rate": 0.0010299143298534712
+  }
+}

@@ -1,0 +1,5 @@
+,TP,FP,TN,FN
+LogReg,42,403,42267,10
+RandomForest,44,340,42330,8
+XGBoost,43,395,42275,9
+RL (Block),34,10,42660,18

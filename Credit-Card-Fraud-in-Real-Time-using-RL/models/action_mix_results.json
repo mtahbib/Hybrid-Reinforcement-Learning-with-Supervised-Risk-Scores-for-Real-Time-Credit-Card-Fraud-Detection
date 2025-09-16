@@ -1,0 +1,17 @@
+{
+  "rl_action_rates": {
+    "approve_rate": 0.9014793314919713,
+    "review_rate": 0.09749075417817518,
+    "block_rate": 0.0010299143298534712
+  },
+  "baseline_block_rates": {
+    "LogReg_block_rate": 0.010416179017836244,
+    "RandomForest_block_rate": 0.008988343242357567,
+    "XGBoost_block_rate": 0.0102523290108141
+  },
+  "val_thresholds_fpr1pct": {
+    "LogReg": 0.6272485826005503,
+    "RandomForest": 0.008,
+    "XGBoost": 0.00018365283904131502
+  }
+}

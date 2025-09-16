@@ -1,0 +1,18 @@
+Agreement Metrics (Kappa and MCC)
+While F1-score and cost metrics provide business utility, agreement metrics assess how well
+predictions align with ground-truth beyond chance. We report Cohen's Kappa and the Matthews
+Correlation Coefficient (MCC) at operating thresholds corresponding to ~1% FPR for the baselines.
+Results (test set):
+Kappa:
+• LogReg = 0.167
+• RandomForest = 0.200
+• XGBoost = 0.174
+• RL (BLOCK) = 0.139
+MCC:
+• LogReg = 0.274
+• RandomForest = 0.310
+• XGBoost = 0.283
+• RL (BLOCK) = 0.239
+These results suggest that baseline classifiers achieve slightly higher agreement with ground-truth
+labels under standard binary evaluation, whereas the RL (block-only) policy trades some agreement
+for higher precision and business-aligned cost performance.

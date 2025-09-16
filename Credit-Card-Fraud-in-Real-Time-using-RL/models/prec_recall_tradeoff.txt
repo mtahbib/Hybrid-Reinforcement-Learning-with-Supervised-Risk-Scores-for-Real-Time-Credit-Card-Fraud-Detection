@@ -1,0 +1,7 @@
+Precision–Recall Trade-off
+Precision is a key differentiator. At ≈1% FPR:
+Baselines: precision 0.09–0.11, meaning most fraud alerts are false positives.
+
+RL (block-only): precision 0.77, meaning a clear majority of alerts are genuine fraud.
+
+Although RL’s recall (0.65) is slightly lower than baselines (0.81–0.85), the precision gain dominates, producing a much higher F1 (0.71). This precision–recall balance reflects the system’s cost-sensitive reward design. Figure 4.4 shows precision and recall comparisons side by side.

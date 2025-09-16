@@ -1,0 +1,19 @@
+{
+  "thresholds_val_FPR1pct": {
+    "LogReg": 0.6272485826005503,
+    "RandomForest": 0.008,
+    "XGBoost": 0.00018365283904131502
+  },
+  "kappa_at_valFPR1pct": {
+    "LogReg": 0.1671988752866559,
+    "RandomForest": 0.20011991269529406,
+    "XGBoost": 0.17371219808592664,
+    "RL (BLOCK)": 0.13864015644677208
+  },
+  "mcc_at_valFPR1pct": {
+    "LogReg": 0.2741375964113268,
+    "RandomForest": 0.3096509870078325,
+    "XGBoost": 0.28301785736624246,
+    "RL (BLOCK)": 0.2389150018855216
+  }
+}
